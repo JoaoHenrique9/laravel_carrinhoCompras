@@ -1,0 +1,1 @@
+function carrinhoRemoverProduto(r,o,i){$('#form-remover-product input[name="order_id"]').val(r),$('#form-remover-product input[name="product_id"]').val(o),$('#form-remover-product input[name="item"]').val(i),$("#form-remover-product").submit()}function carrinhoAdicionarProduto(r){$('#form-adicionar-product input[name="id"]').val(r),$("#form-adicionar-product").submit()}
